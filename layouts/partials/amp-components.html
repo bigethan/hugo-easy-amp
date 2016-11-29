@@ -1,0 +1,5 @@
+{{/* the main AMP lib */}}
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+
+{{ range $.Site.Data.amp.components }}<script async custom-element="{{ . }}" src="https://cdn.ampproject.org/v0/{{ . }}-0.1.js"></script>
+{{ end }}

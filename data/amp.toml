@@ -1,0 +1,61 @@
+# copy this to your own data folder as amp.toml
+
+# list the google fonts you want to use
+# with the slug that comes after the "family="
+# but replace any '+' chars with a space
+fonts = [
+  "Noto Serif:700",
+  "Quattrocento:400",
+]
+
+# From https://github.com/ampproject/amphtml/blob/master/extensions/README.md
+# Uncomment the modules that you do want to user
+
+components = [
+#   "amp-access", # Provides AMP paywall and subscription support.
+#   "amp-ad", # Container to display an ad.
+#   "amp-experiment", # Conducts user experience experiments on an AMP document.
+#    "amp-analytics", # Captures analytics data from an AMP document.
+#
+#   "amp-audio", #	Replaces the HTML5 audio tag.
+#   "amp-o2-player", #	Displays a AOL O2Player.
+#   "amp-brid-player", #	Displays a Brid.tv player.
+#   "amp-brightcove", #	Displays a Brightcove Video Cloud or Perform player.
+#   "amp-dailymotion", #	Displays a Dailymotion video.
+#   "amp-gfycat", #	Displays a Gfycat video GIF.
+#   "amp-jwplayer", #	Displays a cloud-hosted JW Player.
+#   "amp-kaltura-player", #	Displays the Kaltura Player as used in Kaltura's Video Platform.
+#   "amp-reach-player", #	Displays a Beachfront Reach video player.
+#   "amp-soundcloud", #	Displays a Soundcloud clip.
+#   "amp-springboard-player", #	Displays a Springboard Platform video player
+#   "amp-vimeo", #	Displays a Vimeo video.
+#   "amp-vine", #	Displays a Vine simple embed.
+#   "amp-youtube", #Displays a YouTube video.
+#
+#   "amp-form", # Provides form support.
+#    "amp-iframe", # Displays an iframe.
+#
+#   "amp-accordion", # Provides a way for viewers to have a glance at the outline of the content and jump to a section of their choice at will.
+#   "amp-anim", # Manages an animated image, typically a GIF.
+#   "amp-carousel", # Displays multiple similar pieces of content along a horizontal axis.
+#   "amp-dynamic-css-classes", # Adds several dynamic CSS class names onto the HTML element.
+#    "amp-fit-text", # Expands or shrinks font size to fit the content within the space given.
+#   "amp-font", # Triggers and monitors the loading of custom fonts.
+#   "amp-fx-flying-carpet", # Wraps its children in a unique full-screen scrolling container allowing you to display a full-screen ad without taking up the entire viewport.
+#   "amp-image-lightbox", # Allows for an “image lightbox” or similar experience.
+#   "amp-lightbox", # Allows for a “lightbox” or similar experience.
+#   "amp-mustache", # Allows rendering of Mustache.js templates.
+#   "amp-sidebar", # Provides a way to display meta content intended for temporary access such as navigation, links, buttons, menus.
+#   "amp-sticky-ad", # Provides a way to display and stick ad content at the bottom of the page.
+#   "amp-user-notification", # Displays a dismissable notification to the user.
+#
+#   "amp-install-serviceworker", # Installs a ServiceWorker.
+#
+#   "amp-facebook", # Displays a Facebook post or video.
+#   "amp-gfycat", # Displays a Gfycat video GIF.
+#   "amp-instagram", # Displays an Instagram embed.
+#   "amp-pinterest", # Displays a Pinterest widget or Pin It button.
+#   "amp-reddit", # Displays a Reddit post or comment.
+#   "amp-social-share", # Displays a social share button.
+#   "amp-twitter", # Displays a Twitter tweet.
+ ]
